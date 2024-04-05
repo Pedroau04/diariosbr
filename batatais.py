@@ -16,9 +16,11 @@ def acessar_pagina_dinamica(link):
     navegador = webdriver.Chrome (service=ChromeService(ChromeDriverManager().install()))
     navegador.get(link)
     #clicar em download pdf
-    #find_element e find_element
-    dowload_pdf=navegator.find_element(By.CSS_SELECTOR, #pdf). find_eleme
-    #clicar na caixa da página embaixo
+    #find_element e find_elements
+    download_pdf = navegador.find_element(By.CSS_SELECTOR, "download pdf")
+    #clicar na caixa numerada ao final da página
+    #find_element e find_elements
+    caixa_numerada = navegador.find_element(By.CSS_SELECTOR,"número")
 
 def main():
     link = "https://www.batatais.sp.gov.br/diario-oficial"
