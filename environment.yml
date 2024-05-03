@@ -5,5 +5,7 @@ channels:
 dependencies:
   - python
   - selenium
+  - beautifulsoup4
+  - httpx
   - webdriver-manager
   - tinydb
